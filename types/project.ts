@@ -1,11 +1,9 @@
 export type ProjectStatus =
-  | "completed"
+  | "done"
   | "in-progress"
-  | "confirmed"
-  | "conditional"
   | "planned"
-  | "future"
-  | "tbc";
+  | "tbc"
+  | "blocked";
 
 export type IconName =
   | "anchor"
@@ -31,7 +29,6 @@ export type RoadmapCheckpoint = {
   description: string;
   target: string;
   status: ProjectStatus;
-  statusLabel?: string;
   icon: IconName;
 };
 
@@ -51,7 +48,6 @@ export type Project = {
   accent: "purple" | "blue" | "orange" | "green";
   currentPhase: string;
   status: ProjectStatus;
-  statusLabel: string;
   nextMilestone: string;
   nextTarget: string;
   description: string;

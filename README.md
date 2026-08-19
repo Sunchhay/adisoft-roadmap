@@ -27,4 +27,4 @@ Import the repository into Vercel and use the detected Next.js defaults, or run 
 
 ## Content model
 
-All roadmap content lives in `data/projects.ts`; shared project types live in `types/project.ts`. Unknown or conditional dates remain explicitly marked as TBC, After Validation, After UAT, or After Production Launch.
+All roadmap content lives in `data/projects.ts`; shared project types live in `types/project.ts`. Unknown dates or directions remain explicitly marked as TBC, After Validation, After UAT, or After Production Launch.
