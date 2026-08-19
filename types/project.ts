@@ -41,6 +41,13 @@ export type Milestone = {
 
 export type SummaryItem = { label: string; value: string };
 
+export type TeamMember = {
+  position: string;
+  nickname: string;
+  email: string;
+  fullName: string;
+};
+
 export type Project = {
   slug: string;
   name: string;
@@ -57,6 +64,7 @@ export type Project = {
   milestones: Milestone[];
   executiveSummary: string[];
   candidateScope?: string[];
+  teamMembers?: TeamMember[];
 };
 
 export type PortfolioPeriod = {
