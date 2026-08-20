@@ -114,13 +114,13 @@ export const projects: Project[] = [
     executiveSummary: ["OMS is still iterating on the core gameplay because the current experience is not yet fun enough.", "Deliver and validate Hero #1 with fun core mechanics by 30 Sep 2026.", "If the gameplay is approved, lock the gameplay baseline and proceed with the remaining 7 heroes and full MVP integration.", "UAT and release dates remain TBC until the gameplay baseline is validated and the remaining scope is estimated."],
   },
   {
-    slug: "adisoft-store", name: "Adisoft Store", shortName: "Store", accent: "orange", currentPhase: "Security Validation & Fixing", status: "in-progress", nextMilestone: "UAT", nextTarget: "End Aug 2026",
+    slug: "adisoft-store", name: "Adisoft Store", shortName: "Store", accent: "orange", currentPhase: "Security Validation & Fixing", status: "in-progress", nextMilestone: "UAT", nextTarget: "Due 31 Aug 2026",
     description: "Secure the completed commerce foundation, validate through UAT, then lock MVP 2 before further expansion.", timelineTitle: "Adisoft Store Roadmap",
-    summaryItems: [{ label: "Foundation", value: "Core Commerce Complete" }, { label: "Current Focus", value: "Security Validation & Fixing" }, { label: "Next Planned Checkpoint", value: "UAT · End Aug 2026" }, { label: "Next Product Phase", value: "MVP 2 Scope Lock" }],
+    summaryItems: [{ label: "Foundation", value: "Core Commerce Complete" }, { label: "Current Focus", value: "Security Validation & Fixing" }, { label: "Next Planned Checkpoint", value: "UAT · Due 31 Aug 2026" }, { label: "Next Product Phase", value: "MVP 2 Scope Lock" }],
     checkpoints: [
       { id: "foundation", phase: "Core Commerce Foundation", title: "Foundation Complete", description: "Catalog, item detail, checkout, payment integration, order history, purchase confirmation, reward fulfillment, and SIT are complete.", target: "Completed", status: "done", icon: "check" },
       { id: "security", phase: "Security Validation & Fixing", title: "Current Phase", description: "Test and resolve security findings across authentication, APIs, payment, tokens, access control, transactions, and webhooks.", target: "Aug 2026", status: "in-progress", icon: "shield" },
-      { id: "uat", phase: "UAT", title: "Security-Ready Build Validation", description: "Validate the secured commerce foundation end-to-end and establish readiness for internal production use.", target: "End Aug 2026", status: "planned", icon: "test" },
+      { id: "uat", phase: "UAT", title: "Security-Ready Build Validation", description: "Validate the secured commerce foundation end-to-end and establish readiness for internal production use.", target: "Due 31 Aug 2026", status: "planned", icon: "test" },
       { id: "launch", phase: "Internal Production Launch", title: "Internal Go-Live", description: "Deploy the validated Store foundation for internal production use after UAT approval and release readiness checks.", target: "After UAT", status: "planned", icon: "rocket" },
       { id: "scope", phase: "MVP 2 Scope Review & Lock", title: "Confirm Next Delivery Scope", description: "Review the old expansion plan, reprioritize requirements, and formally lock MVP 2 scope before development continues.", target: "After Internal Launch", status: "planned", icon: "flag" },
       { id: "development", phase: "MVP 2 Development", title: "Store Experience Expansion", description: "Implement the approved MVP 2 scope only after priorities, ownership, and estimates are agreed.", target: "TBC", status: "tbc", icon: "code" },
@@ -129,7 +129,7 @@ export const projects: Project[] = [
     milestones: [
       { milestone: "Core Commerce Foundation", target: "Completed", direction: "Catalog, checkout, payment, order history, reward fulfillment, and SIT foundation complete" },
       { milestone: "Security Validation & Fixing", target: "Aug 2026", direction: "In progress — resolve release-blocking security findings and retest fixes" },
-      { milestone: "UAT", target: "End Aug 2026", direction: "Planned target — validate the secured commerce foundation end-to-end" },
+      { milestone: "UAT", target: "Due 31 Aug 2026", direction: "Planned target — validate the secured commerce foundation end-to-end" },
       { milestone: "Internal Production Launch", target: "After UAT", direction: "Proceed after UAT approval and production readiness checks" },
       { milestone: "MVP 2 Scope Review & Lock", target: "After Internal Launch", direction: "Revalidate and lock next feature scope before development resumes" },
       { milestone: "MVP 2 Development", target: "TBC", direction: "Depends on approved scope, priorities, ownership, and estimates" },
@@ -154,12 +154,12 @@ export const projects: Project[] = [
     executiveSummary: ["The core commerce foundation is complete and is currently in security validation and fixing.", "UAT is planned for the end of Aug 2026.", "After UAT approval, proceed to Internal Production Launch, then review and lock the MVP 2 scope before continuing development.", "MVP 2 delivery and wider release dates remain TBC until the scope is approved and estimated."],
   },
   {
-    slug: "adisoft-portal", name: "Adisoft Portal", shortName: "Portal", accent: "green", currentPhase: "UAT", status: "in-progress", nextMilestone: "Production Readiness", nextTarget: "After UAT",
+    slug: "adisoft-portal", name: "Adisoft Portal", shortName: "Portal", accent: "green", currentPhase: "UAT", status: "in-progress", nextMilestone: "Production Readiness", nextTarget: "After UAT Confirmation",
     description: "Complete UAT, prepare for production, then continue with the next scope based on PO direction.", timelineTitle: "Adisoft Portal Roadmap",
     summaryItems: [{ label: "Current Phase", value: "UAT" }, { label: "Next Milestone", value: "Production Readiness" }, { label: "Production Launch", value: "TBC" }, { label: "Next Scope", value: "PO Direction" }],
     checkpoints: [
       { id: "uat", phase: "UAT", title: "Current Phase", description: "Validate the current Portal release, collect feedback, and classify release-blocking issues before production.", target: "Aug 2026", status: "in-progress", icon: "test" },
-      { id: "readiness", phase: "Production Readiness", title: "Release Preparation", description: "Resolve release blockers, run final regression, verify production configuration, and complete deployment readiness checks.", target: "After UAT", status: "planned", icon: "check" },
+      { id: "readiness", phase: "Production Readiness", title: "Release Preparation", description: "Resolve release blockers, run final regression, verify production configuration, and complete deployment readiness checks.", target: "After UAT Confirmation", status: "planned", icon: "check" },
       { id: "launch", phase: "Production Launch", title: "Go Live", description: "Deploy the approved Portal release to production after UAT and readiness validation are completed.", target: "TBC", status: "tbc", icon: "rocket" },
       { id: "review", phase: "Next Scope Review", title: "Follow PO Direction", description: "Review the next priorities and requirements based on PO direction immediately after the production launch.", target: "After Production Launch", status: "planned", icon: "flag" },
       { id: "lock", phase: "Next Scope Lock", title: "Set Priorities & Scope", description: "Lock the approved next scope, priorities, ownership, and delivery assumptions before development starts.", target: "TBC", status: "tbc", icon: "lock" },
@@ -167,7 +167,7 @@ export const projects: Project[] = [
     ],
     milestones: [
       { milestone: "UAT", target: "Aug 2026", direction: "Current phase — validate the release and identify any blockers" },
-      { milestone: "Production Readiness", target: "After UAT", direction: "Resolve blockers, final regression, deployment/configuration checks" },
+      { milestone: "Production Readiness", target: "After UAT Confirmation", direction: "Resolve blockers, final regression, deployment/configuration checks" },
       { milestone: "Production Launch", target: "TBC", direction: "Next major milestone after UAT and readiness approval" },
       { milestone: "Next Scope Review", target: "After Production Launch", direction: "Continue based on PO direction" },
       { milestone: "Next Scope Lock", target: "TBC", direction: "Confirm scope and priorities before new development" },
@@ -193,8 +193,8 @@ export const projects: Project[] = [
     accent: "green",
     currentPhase: "Content & Data Completion",
     status: "in-progress",
-    nextMilestone: "Requirement Analysis & Design",
-    nextTarget: "TBC",
+    nextMilestone: "Translate & Pre-Register",
+    nextTarget: "Due 21 August 2026",
     description: "Complete the current website content and data, then evaluate future website features through requirement analysis and design discussion.",
     timelineTitle: "Adisoft Website Roadmap",
     summaryItems: [
