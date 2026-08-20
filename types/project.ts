@@ -46,6 +46,7 @@ export type TeamMember = {
   nickname: string;
   email: string;
   fullName: string;
+  group?: "Project Owner" | "PM & SA" | "UX/UI" | "Quality Assurance" | "Development" | "Data";
 };
 
 export type Project = {

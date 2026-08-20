@@ -13,7 +13,7 @@ export function Sidebar() {
   return (
     <aside className="hidden h-screen w-64 shrink-0 flex-col bg-[#111318] px-4 py-5 text-white lg:sticky lg:top-0 lg:flex">
       <Link href="/" className="mb-9 flex items-center gap-3 rounded-xl px-2 py-1 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white">
-        <Image src="/Adisoft-vertical.png" alt="Adisoft" width={40} height={40} className="size-10 rounded-xl object-contain" priority />
+        <Image src="/company-app-icon.png" alt="Adisoft" width={40} height={40} className="size-10 rounded-xl object-contain" priority />
         <span><strong className="block text-sm">Project Roadmap</strong><small className="text-xs text-slate-400">Executive View</small></span>
       </Link>
       <p className="mb-2 px-3 text-[10px] font-bold uppercase tracking-[.16em] text-slate-500">Workspace</p>

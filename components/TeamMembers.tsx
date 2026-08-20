@@ -1,22 +1,26 @@
-import { Mail, Users } from "lucide-react";
-import type { TeamMember } from "@/types/project";
+import { Users } from "lucide-react";
+import type { Project, TeamMember } from "@/types/project";
+import { TeamMemberCard } from "./TeamMemberCard";
 
-export function TeamMembers({ members, projectName }: { members: TeamMember[]; projectName: string }) {
-  return (
-    <section className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-[0_1px_2px_rgba(15,23,42,.03)]">
-      <div className="flex flex-col justify-between gap-3 border-b border-slate-100 px-5 py-5 sm:flex-row sm:items-center">
-        <div>
-          <h2 className="flex items-center gap-2 text-lg font-semibold text-slate-950"><Users size={18} />Project team</h2>
-          <p className="mt-1 text-sm text-slate-500">{projectName} team members and responsibilities.</p>
-        </div>
-        <span className="w-fit rounded-full bg-slate-100 px-3 py-1.5 text-xs font-semibold text-slate-600">{members.length} members</span>
-      </div>
-      <div className="overflow-x-auto">
-        <table className="w-full min-w-[760px] border-collapse text-left text-sm">
-          <thead><tr className="border-b border-slate-200 text-[10px] font-bold uppercase tracking-wider text-slate-400"><th className="w-16 px-5 py-3">No.</th><th className="px-5 py-3">Position</th><th className="px-5 py-3">Nickname</th><th className="px-5 py-3">Full name</th><th className="px-5 py-3">Email</th></tr></thead>
-          <tbody>{members.map((member, index) => <tr key={member.email} className="border-b border-slate-100 last:border-0 hover:bg-slate-50/70"><td className="px-5 py-4 font-mono text-xs text-slate-400">{String(index + 1).padStart(2, "0")}</td><td className="px-5 py-4 font-medium text-slate-800">{member.position}</td><td className="px-5 py-4"><span className="inline-flex rounded-md bg-slate-100 px-2 py-1 text-xs font-semibold text-slate-600">{member.nickname}</span></td><td className="px-5 py-4 text-slate-600">{member.fullName}</td><td className="px-5 py-4"><a href={`mailto:${member.email}`} className="inline-flex items-center gap-2 text-slate-500 transition hover:text-slate-950 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-900"><Mail size={14} />{member.email}</a></td></tr>)}</tbody>
-        </table>
-      </div>
-    </section>
-  );
+function getGroup(member: TeamMember) {
+  if (member.group) return member.group;
+  const role = member.position.toLowerCase();
+  if (role.includes("project owner")) return "Project Owner";
+  if (role.includes("pm & sa")) return "PM & SA";
+  if (role.includes("ux/ui")) return "UX/UI";
+  if (role.includes("quality assurance")) return "Quality Assurance";
+  if (role.includes("developer")) return "Development";
+  if (role.includes("data")) return "Data";
+  if (role.includes("designer") || role.includes("artist") || role.includes("creative") || role.includes("cinematic") || role.includes("sound") || role.includes("animator") || role.includes("vfx")) return "Creative Production";
+  return "Other Stakeholders";
+}
+
+export function TeamMembers({ members, projectName, accent }: { members: TeamMember[]; projectName: string; accent: Project["accent"] }) {
+  const groups = members.reduce<Map<string, { member: TeamMember; number: number }[]>>((result, member, index) => {
+    const group = getGroup(member);
+    result.set(group, [...(result.get(group) ?? []), { member, number: index + 1 }]);
+    return result;
+  }, new Map());
+
+  return <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-[0_1px_2px_rgba(15,23,42,.03)] sm:p-6"><div className="flex flex-col justify-between gap-3 border-b border-slate-100 pb-5 sm:flex-row sm:items-center"><div><h2 className="flex items-center gap-2 text-lg font-semibold text-slate-950"><Users size={18} />Project Team</h2><p className="mt-1 text-sm text-slate-500">{projectName} team members and stakeholders.</p></div><span className="w-fit rounded-full bg-slate-100 px-3 py-1.5 text-xs font-semibold text-slate-600">{members.length} members</span></div><div className="mt-6 space-y-7">{Array.from(groups, ([group, groupedMembers]) => <section key={group}><div className="mb-3 flex items-center gap-3"><h3 className="text-xs font-bold uppercase tracking-[.12em] text-slate-500">{group}</h3><span className="h-px flex-1 bg-slate-100" /><span className="text-[10px] font-medium text-slate-400">{groupedMembers.length}</span></div><div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">{groupedMembers.map(({ member, number }) => <TeamMemberCard key={member.email} member={member} number={number} accent={accent} />)}</div></section>)}</div></section>;
 }

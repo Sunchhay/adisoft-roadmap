@@ -1,6 +1,6 @@
 # Adisoft Project Roadmap
 
-A responsive executive roadmap dashboard for League of Fishers, Oh! My Sausage, Adisoft Store, and Adisoft Portal. Built with Next.js App Router, TypeScript, Tailwind CSS, and Lucide icons.
+A responsive executive roadmap dashboard for League of Fishers, Oh! My Sausage, Adisoft Store, Adisoft Portal, and Adisoft Website. Built with Next.js App Router, TypeScript, Tailwind CSS, and Lucide icons.
 
 ## Run locally
 

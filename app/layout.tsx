@@ -10,9 +10,9 @@ export const metadata: Metadata = {
   title: "Adisoft Project Roadmap",
   description: "Executive project timeline and roadmap dashboard",
   icons: {
-    icon: [{ url: "/Adisoft-vertical.png", type: "image/png", sizes: "512x512" }],
-    shortcut: "/Adisoft-vertical.png",
-    apple: "/Adisoft-vertical.png",
+    icon: [{ url: "/company-icon.png", type: "image/png", sizes: "512x512" }],
+    shortcut: "/company-icon.png",
+    apple: "/company-icon.png",
   },
 };
 
