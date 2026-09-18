@@ -1,0 +1,934 @@
+{
+  "title": "Payment Methods",
+  "description": "Review available providers, supported methods, fees, and available countries.",
+  "note": "Fees and customer countries follow the supplied review table, with a zero fee displayed as Free. Blank cells are shown as Not specified; confirm commercial terms with each provider.",
+  "providers": [
+    {
+      "id": "aba-bank",
+      "name": "ABA Bank",
+      "description": "Cambodia’s leading commercial bank, offering secure and reliable payment solutions.",
+      "supportedIn": "Cambodia",
+      "logoUrl": "https://play-lh.googleusercontent.com/O7xMXY5ehCEVwpR0MlKYQOK5QJ1oFIw4EoXQqyt_vgDKT3Uvn1g8FIz_fNDDhWH4Zbdclp54WhRMnI8vzyE9OeU",
+      "methods": [
+        {
+          "id": "aba-bank-payment",
+          "name": "ABA Bank",
+          "type": "Bank payment",
+          "fee": "3%",
+          "country": "Cambodia",
+          "logoUrl": "https://play-lh.googleusercontent.com/O7xMXY5ehCEVwpR0MlKYQOK5QJ1oFIw4EoXQqyt_vgDKT3Uvn1g8FIz_fNDDhWH4Zbdclp54WhRMnI8vzyE9OeU",
+          "countryCodes": [
+            "KH"
+          ]
+        },
+        {
+          "id": "aba-visa-card",
+          "name": "Visa Card",
+          "type": "Debit/Credit Card",
+          "fee": "3%",
+          "country": "Global",
+          "logoUrl": "https://img.icons8.com/color/1200/visa.jpg",
+          "countryCodes": [],
+          "isGlobal": true
+        },
+        {
+          "id": "aba-mastercard-card",
+          "name": "Mastercard Card",
+          "type": "Debit/Credit Card",
+          "fee": "3%",
+          "country": "Global",
+          "logoUrl": "https://banner2.cleanpng.com/20181109/lif/kisspng-credit-card-payment-mastercard-logo-1713924735614.webp",
+          "countryCodes": [],
+          "isGlobal": true
+        },
+        {
+          "id": "aba-unionpay-card",
+          "name": "UnionPay Card",
+          "type": "Debit/Credit Card",
+          "fee": "3%",
+          "country": "Global / China-origin",
+          "logoUrl": "https://e7.pngegg.com/pngimages/925/4/png-clipart-logo-unionpay-credit-card-atm-card-bank-card-credit-card-text-payment.png",
+          "countryCodes": [],
+          "isGlobal": true
+        },
+        {
+          "id": "aba-khqr",
+          "name": "KHQR",
+          "type": "QR Payments",
+          "fee": "Free",
+          "country": "Cambodia",
+          "logoUrl": "https://bredcambodia.com.kh/wp-content/uploads/2022/12/KHQR-available-here-logo-with-bg-1024x422.png",
+          "countryCodes": [
+            "KH"
+          ]
+        },
+        {
+          "id": "alipay",
+          "name": "AliPay",
+          "type": "QR Payments",
+          "fee": "2%",
+          "country": "China / Cross-border",
+          "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF4Dkmpm9Bygv90AYqymAiNtie04EaOC31rJQVjD-O1GEnnPTmGUL5pMPI&s=10",
+          "countryCodes": [
+            "CN"
+          ]
+        },
+        {
+          "id": "wechat",
+          "name": "WeChat",
+          "type": "QR Payments",
+          "fee": "2%",
+          "country": "China / Cross-border",
+          "logoUrl": "https://brandlogos.net/wp-content/uploads/2018/10/wechat_pay_icon-logo_brandlogos.net_6qpmj.png",
+          "countryCodes": [
+            "CN"
+          ]
+        }
+      ],
+      "supportedCountryCodes": [
+        "KH"
+      ]
+    },
+    {
+      "id": "wing-bank",
+      "name": "Wing Bank",
+      "description": "Popular digital bank in Cambodia, offering a wide range of local payment options.",
+      "supportedIn": "Cambodia",
+      "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcvkY5CoA9kiyIqvGj4jk7G6WYzov7yVttALr143W3aKzI-6F2yb-6jZCE&s=10",
+      "methods": [
+        {
+          "id": "visa-card",
+          "name": "Visa Card",
+          "type": "Card",
+          "fee": "Not specified",
+          "country": "Global",
+          "logoUrl": "https://img.icons8.com/color/1200/visa.jpg",
+          "countryCodes": [],
+          "isGlobal": true
+        },
+        {
+          "id": "mastercard-card",
+          "name": "Mastercard Card",
+          "type": "Card",
+          "fee": "Not specified",
+          "country": "Global",
+          "logoUrl": "https://banner2.cleanpng.com/20181109/lif/kisspng-credit-card-payment-mastercard-logo-1713924735614.webp",
+          "countryCodes": [],
+          "isGlobal": true
+        },
+        {
+          "id": "unionpay-card",
+          "name": "UnionPay Card",
+          "type": "Card",
+          "fee": "Not specified",
+          "country": "Global / China-origin",
+          "logoUrl": "https://e7.pngegg.com/pngimages/925/4/png-clipart-logo-unionpay-credit-card-atm-card-bank-card-credit-card-text-payment.png",
+          "countryCodes": [],
+          "isGlobal": true
+        },
+        {
+          "id": "wing-closed-loop-card",
+          "name": "Wing Closed-loop Card",
+          "type": "Card",
+          "fee": "Not specified",
+          "country": "Not specified",
+          "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcvkY5CoA9kiyIqvGj4jk7G6WYzov7yVttALr143W3aKzI-6F2yb-6jZCE&s=10",
+          "countryCodes": []
+        },
+        {
+          "id": "khqr",
+          "name": "KHQR",
+          "type": "QR Payments",
+          "fee": "Free",
+          "country": "Cambodia",
+          "logoUrl": "https://bredcambodia.com.kh/wp-content/uploads/2022/12/KHQR-available-here-logo-with-bg-1024x422.png",
+          "countryCodes": [
+            "KH"
+          ]
+        }
+      ],
+      "supportedCountryCodes": [
+        "KH"
+      ]
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "description": "Global payment infrastructure for online businesses.",
+      "supportedIn": "200+ countries",
+      "logoUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/stripe.svg",
+      "methods": [
+        {
+          "id": "visa",
+          "name": "Visa",
+          "type": "Cards (Global Networks)",
+          "fee": "2.9% - 5.4%",
+          "country": "Worldwide",
+          "logoUrl": "https://img.icons8.com/color/1200/visa.jpg",
+          "countryCodes": [],
+          "isGlobal": true
+        },
+        {
+          "id": "mastercard",
+          "name": "Mastercard",
+          "type": "Cards (Global Networks)",
+          "fee": "2.9% - 5.4%",
+          "country": "Worldwide",
+          "logoUrl": "https://banner2.cleanpng.com/20181109/lif/kisspng-credit-card-payment-mastercard-logo-1713924735614.webp",
+          "countryCodes": [],
+          "isGlobal": true
+        },
+        {
+          "id": "american-express",
+          "name": "American Express",
+          "type": "Cards (Global Networks)",
+          "fee": "2.9% - 5.4%",
+          "country": "Worldwide",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/americanexpress.svg",
+          "countryCodes": [],
+          "isGlobal": true
+        },
+        {
+          "id": "discover",
+          "name": "Discover",
+          "type": "Cards (Global Networks)",
+          "fee": "2.9% - 5.4%",
+          "country": "Primarily US",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/discover.svg",
+          "countryCodes": [
+            "US"
+          ]
+        },
+        {
+          "id": "diners-club",
+          "name": "Diners Club",
+          "type": "Cards (Global Networks)",
+          "fee": "2.9% - 5.4%",
+          "country": "Worldwide",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Diners_Club_Logo3.svg",
+          "countryCodes": [],
+          "isGlobal": true
+        },
+        {
+          "id": "jcb",
+          "name": "JCB",
+          "type": "Cards (Global Networks)",
+          "fee": "2.9% - 5.4%",
+          "country": "Japan, Asia",
+          "logoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/JCB_logo.svg/3840px-JCB_logo.svg.png",
+          "countryCodes": [
+            "JP"
+          ]
+        },
+        {
+          "id": "china-unionpay-cup",
+          "name": "China UnionPay (CUP)",
+          "type": "Cards (Global Networks)",
+          "fee": "2.9% - 5.4%",
+          "country": "China",
+          "logoUrl": "https://e7.pngegg.com/pngimages/925/4/png-clipart-logo-unionpay-credit-card-atm-card-bank-card-credit-card-text-payment.png",
+          "countryCodes": [
+            "CN"
+          ]
+        },
+        {
+          "id": "cartes-bancaires-france",
+          "name": "Cartes Bancaires (France)",
+          "type": "Cards (Global Networks)",
+          "fee": "2.9% - 5.4%",
+          "country": "France",
+          "logoUrl": "https://vectorseek.com/wp-content/uploads/2023/09/Cartes-Bancaires-Logo-Vector.svg-.png",
+          "countryCodes": [
+            "FR"
+          ]
+        },
+        {
+          "id": "eftpos-australia",
+          "name": "eftpos (Australia)",
+          "type": "Cards (Global Networks)",
+          "fee": "2.9% - 5.4%",
+          "country": "Australia",
+          "logoUrl": "https://images.seeklogo.com/logo-png/4/1/eftpos-logo-png_seeklogo-46074.png",
+          "countryCodes": [
+            "AU"
+          ]
+        },
+        {
+          "id": "interac-canada-in-person-only",
+          "name": "Interac (Canada - in-person only)",
+          "type": "Cards (Global Networks)",
+          "fee": "2.9% - 3.4%",
+          "country": "Canada",
+          "logoUrl": "https://toppng.com/uploads/preview/interac-yellow-vector-logo-free-download-11574103307xabgqcjzgi.png",
+          "countryCodes": [
+            "CA"
+          ]
+        },
+        {
+          "id": "maestro",
+          "name": "Maestro",
+          "type": "Cards (Global Networks)",
+          "fee": "2.9% - 5.4%",
+          "country": "Europe",
+          "logoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Maestro_Logo.svg/3840px-Maestro_Logo.svg.png",
+          "countryCodes": []
+        },
+        {
+          "id": "nyce-pulse-star-us-debit-networks",
+          "name": "NYCE, PULSE, STAR (US debit networks)",
+          "type": "Cards (Global Networks)",
+          "fee": "2.9% - 3.4%",
+          "country": "Us",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/credit-card.svg",
+          "countryCodes": [
+            "US"
+          ]
+        },
+        {
+          "id": "apple-pay",
+          "name": "Apple Pay",
+          "type": "Digital Wallets",
+          "fee": "2.9% - 5.4%",
+          "country": "Apple-supported locations worldwide",
+          "logoUrl": "https://www.logo.wine/a/logo/Apple_Pay/Apple_Pay-Logo.wine.svg",
+          "countryCodes": [],
+          "isGlobal": true
+        },
+        {
+          "id": "google-pay",
+          "name": "Google Pay",
+          "type": "Digital Wallets",
+          "fee": "2.9% - 5.4%",
+          "country": "Google-supported locations worldwide",
+          "logoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Google_Pay_Logo.svg/3840px-Google_Pay_Logo.svg.png",
+          "countryCodes": []
+        },
+        {
+          "id": "link-stripe-s-wallet",
+          "name": "Link (Stripe's wallet)",
+          "type": "Digital Wallets",
+          "fee": "2.9% - 5.4%",
+          "country": "Worldwide",
+          "logoUrl": "https://brandlogos.net/wp-content/uploads/2025/04/link_stripe-logo_brandlogos.net_scfln.png",
+          "countryCodes": [],
+          "isGlobal": true
+        },
+        {
+          "id": "paypal",
+          "name": "PayPal",
+          "type": "Digital Wallets",
+          "fee": "Contact Stripe",
+          "country": "200+ countries",
+          "logoUrl": "https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_1280.png",
+          "countryCodes": []
+        },
+        {
+          "id": "amazon-pay",
+          "name": "Amazon Pay",
+          "type": "Digital Wallets",
+          "fee": "Contact Stripe",
+          "country": "Worldwide",
+          "logoUrl": "https://download.logo.wine/logo/Amazon_Pay/Amazon_Pay-Logo.wine.png",
+          "countryCodes": [],
+          "isGlobal": true
+        },
+        {
+          "id": "click-to-pay",
+          "name": "Click to Pay",
+          "type": "Digital Wallets",
+          "fee": "2.9% - 5.4%",
+          "country": "Worldwide",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/wallet.svg",
+          "countryCodes": [],
+          "isGlobal": true
+        },
+        {
+          "id": "cash-app-pay",
+          "name": "Cash App Pay",
+          "type": "Digital Wallets",
+          "fee": "2.9% - 5.4%",
+          "country": "US",
+          "logoUrl": "https://w7.pngwing.com/pngs/671/544/png-transparent-cash-app-app-logo-bill-splitting-apps.png",
+          "countryCodes": [
+            "US"
+          ]
+        },
+        {
+          "id": "alipay",
+          "name": "Alipay",
+          "type": "Digital Wallets",
+          "fee": "2.9% - 5.4%",
+          "country": "China / Cross-border",
+          "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF4Dkmpm9Bygv90AYqymAiNtie04EaOC31rJQVjD-O1GEnnPTmGUL5pMPI&s=10",
+          "countryCodes": [
+            "CN"
+          ]
+        },
+        {
+          "id": "wechat-pay",
+          "name": "WeChat Pay",
+          "type": "Digital Wallets",
+          "fee": "2.9% - 5.4%",
+          "country": "China / Cross-border",
+          "logoUrl": "https://brandlogos.net/wp-content/uploads/2018/10/wechat_pay_icon-logo_brandlogos.net_6qpmj.png",
+          "countryCodes": [
+            "CN"
+          ]
+        },
+        {
+          "id": "revolut-pay",
+          "name": "Revolut Pay",
+          "type": "Digital Wallets",
+          "fee": "2.9% - 5.4%",
+          "country": "EU, UK",
+          "logoUrl": "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/logos/revolut-7xg5qi3x0rl0zrcr2o59a6.png/revolut-bn5ndnkw98s301h6dhk6wf.png?_a=DATAiZAAZAA0",
+          "countryCodes": [
+            "EU",
+            "GB"
+          ]
+        },
+        {
+          "id": "satispay",
+          "name": "Satispay",
+          "type": "Digital Wallets",
+          "fee": "2.9% - 5.4%",
+          "country": "Italy",
+          "logoUrl": "https://play-lh.googleusercontent.com/H0OBLWI34i7jOm11pvpdOm7z6EeN2MmxWePho5w5ROp9TkE2-uCfEqmAiCEpFBmRuy996QNvUBzVltsjqurM2g",
+          "countryCodes": [
+            "IT"
+          ]
+        },
+        {
+          "id": "mb-way",
+          "name": "MB WAY",
+          "type": "Digital Wallets",
+          "fee": "2.9% - 5.4%",
+          "country": "Portugal",
+          "logoUrl": "https://iconape.com/wp-content/files/kk/209521/png/mb-way-logo.png",
+          "countryCodes": [
+            "PT"
+          ]
+        },
+        {
+          "id": "swish",
+          "name": "Swish",
+          "type": "Digital Wallets",
+          "fee": "2.9% - 5.4%",
+          "country": "Sweden",
+          "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyArBfyxfDfHSucZo6vLsY71OyMR-jx5Fd-z1OfrwCJ4W39TICm3I3kNI&s=10",
+          "countryCodes": [
+            "SE"
+          ]
+        },
+        {
+          "id": "vipps",
+          "name": "Vipps",
+          "type": "Digital Wallets",
+          "fee": "2.9% - 5.4%",
+          "country": "Norway",
+          "logoUrl": "https://www.google.com/s2/favicons?domain=vipps.no&sz=128",
+          "countryCodes": [
+            "NO"
+          ]
+        },
+        {
+          "id": "mobilepay",
+          "name": "MobilePay",
+          "type": "Digital Wallets",
+          "fee": "2.9% - 5.4%",
+          "country": "Denmark",
+          "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkV8wub0xLFN2Fb2lZcIJjq6rALsOcVFWKYM8R-G2EzFlp3UtKysJKckVa&s=10",
+          "countryCodes": [
+            "DK"
+          ]
+        },
+        {
+          "id": "twint",
+          "name": "Twint",
+          "type": "Digital Wallets",
+          "fee": "2.9% - 5.4%",
+          "country": "Switzerland",
+          "logoUrl": "https://play-lh.googleusercontent.com/AaiEm0VG9WHp-T6zG5RCShCuFtJjTl2WFq8A-lYGA5zeRph9LBDBBJg1yF-ZCdkx8lyKbIq0LANlPFi59W7L3Q",
+          "countryCodes": [
+            "CH"
+          ]
+        },
+        {
+          "id": "grabpay",
+          "name": "GrabPay",
+          "type": "Digital Wallets",
+          "fee": "2.9% - 5.4%",
+          "country": "Southeast Asia",
+          "logoUrl": "https://e7.pngegg.com/pngimages/524/796/png-clipart-singapore-grab-logo-uber-care-logo-company-text.png",
+          "countryCodes": []
+        },
+        {
+          "id": "paypay",
+          "name": "PayPay",
+          "type": "Digital Wallets",
+          "fee": "2.9% - 5.4%",
+          "country": "Japan, Asia",
+          "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSLRgil0erzmdpQ1Si5iQG1Ttm0pGW9nP63367mnHQclenI5HmqLDSONs&s=10",
+          "countryCodes": [
+            "JP"
+          ]
+        },
+        {
+          "id": "gopay",
+          "name": "GoPay",
+          "type": "Digital Wallets",
+          "fee": "2.9% - 5.4%",
+          "country": "Indonesia",
+          "logoUrl": "https://zonalogo.com/assets/logo-gopay.webp",
+          "countryCodes": [
+            "ID"
+          ]
+        },
+        {
+          "id": "ch-direct-debit",
+          "name": "CH Direct Debit",
+          "type": "Bank Debits",
+          "fee": "0.80%",
+          "country": "(US)",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "countryCodes": [
+            "US"
+          ]
+        },
+        {
+          "id": "sepa-direct-debit",
+          "name": "SEPA Direct Debit",
+          "type": "Bank Debits",
+          "fee": "0.80%",
+          "country": "Europe",
+          "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9nuzOhyuQ6O14oUP3LepPd_F6076Qx03-YZMluy3hdJv92x8zPXfi_k8&s=10",
+          "countryCodes": []
+        },
+        {
+          "id": "bacs-direct-debit",
+          "name": "Bacs Direct Debit",
+          "type": "Bank Debits",
+          "fee": "1.00%",
+          "country": "UK",
+          "logoUrl": "https://brandslogos.com/wp-content/uploads/images/large/direct-debit-logo.png",
+          "countryCodes": [
+            "GB"
+          ]
+        },
+        {
+          "id": "au-becs-direct-debit",
+          "name": "AU BECS Direct Debit",
+          "type": "Bank Debits",
+          "fee": "1.00%",
+          "country": "Australia",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "countryCodes": [
+            "AU"
+          ]
+        },
+        {
+          "id": "nz-becs-direct-debit",
+          "name": "NZ BECS Direct Debit",
+          "type": "Bank Debits",
+          "fee": "1.00%",
+          "country": "New Zealand",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "countryCodes": [
+            "NZ"
+          ]
+        },
+        {
+          "id": "pre-authorized-debits-pads-acss",
+          "name": "Pre-authorized debits / PADs / ACSS",
+          "type": "Bank Redirects",
+          "fee": "1.00%",
+          "country": "Canada",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "countryCodes": [
+            "CA"
+          ]
+        },
+        {
+          "id": "ideal-wero",
+          "name": "iDEAL / Wero",
+          "type": "Bank Redirects",
+          "fee": "€0.29 flat fee",
+          "country": "Netherlands",
+          "logoUrl": "https://d1twnm33rljaon.cloudfront.net/Logos/iDEAL-Wero/_AUTOxAUTO_crop_center-center_none/143175/iDEAL_Wero_Lockup_Yellow_Square_RGB.webp",
+          "countryCodes": [
+            "NL"
+          ]
+        },
+        {
+          "id": "bancontact",
+          "name": "Bancontact",
+          "type": "Bank Redirects",
+          "fee": "€0.29 flat fee",
+          "country": "Belgium",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Bancontact.png",
+          "countryCodes": [
+            "BE"
+          ]
+        },
+        {
+          "id": "giropay",
+          "name": "Giropay",
+          "type": "Bank Redirects",
+          "fee": "€0.29 flat fee",
+          "country": "Germany",
+          "logoUrl": "https://cdn.freebiesupply.com/logos/large/2x/giropay-logo-black-and-white.png",
+          "countryCodes": [
+            "DE"
+          ]
+        },
+        {
+          "id": "sofort",
+          "name": "Sofort",
+          "type": "Bank Redirects",
+          "fee": "€0.29 flat fee",
+          "country": "Europe",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "countryCodes": []
+        },
+        {
+          "id": "eps",
+          "name": "EPS",
+          "type": "Bank Redirects",
+          "fee": "€0.29 flat fee",
+          "country": "Austria",
+          "logoUrl": "https://www.pngfind.com/pngs/m/558-5582126_modes-of-payment-pay-with-eps-austria-hd.png",
+          "countryCodes": [
+            "AT"
+          ]
+        },
+        {
+          "id": "przelewy24",
+          "name": "Przelewy24",
+          "type": "Bank Redirects",
+          "fee": "1.5% - 4.0%",
+          "country": "Poland",
+          "logoUrl": "https://nomupay.com/wp-content/uploads/2026/02/06-AMPS-PAGE-IMAGES_ZH_001-27.png",
+          "countryCodes": [
+            "PL"
+          ]
+        },
+        {
+          "id": "blik",
+          "name": "BLIK",
+          "type": "Bank Redirects",
+          "fee": "1.5% - 4.0%",
+          "country": "Poland",
+          "logoUrl": "https://admonkey.pl/wp-content/uploads/2020/09/blik.jpg.webp",
+          "countryCodes": [
+            "PL"
+          ]
+        },
+        {
+          "id": "bizum",
+          "name": "Bizum",
+          "type": "Bank Redirects",
+          "fee": "€0.29 flat fee",
+          "country": "Spain",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "countryCodes": [
+            "ES"
+          ]
+        },
+        {
+          "id": "fpx",
+          "name": "FPX",
+          "type": "Bank Redirects",
+          "fee": "2.0% - 4.5%",
+          "country": "Malaysia",
+          "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2mz4xaQi5wtzMvBmaK1UZMSyaqoPFPLaVsvgORe7oSw&s=10",
+          "countryCodes": [
+            "MY"
+          ]
+        },
+        {
+          "id": "usd-bank-transfer",
+          "name": "USD Bank Transfer",
+          "type": "Bank Transfers",
+          "fee": "0.80%",
+          "country": "US",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "countryCodes": [
+            "US"
+          ]
+        },
+        {
+          "id": "gbp-bank-transfer",
+          "name": "GBP Bank Transfer",
+          "type": "Bank Transfers",
+          "fee": "0.80%",
+          "country": "UK",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "countryCodes": [
+            "GB"
+          ]
+        },
+        {
+          "id": "eur-bank-transfer",
+          "name": "EUR Bank Transfer",
+          "type": "Bank Transfers",
+          "fee": "0.80%",
+          "country": "Europe",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "countryCodes": []
+        },
+        {
+          "id": "spei",
+          "name": "SPEI",
+          "type": "Bank Transfers",
+          "fee": "0.80%",
+          "country": "Mexico",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "countryCodes": [
+            "MX"
+          ]
+        },
+        {
+          "id": "jpy-bank-transfer",
+          "name": "JPY Bank Transfer",
+          "type": "Bank Transfers",
+          "fee": "Contact Stripe",
+          "country": "Japan",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "countryCodes": [
+            "JP"
+          ]
+        },
+        {
+          "id": "upi",
+          "name": "UPI",
+          "type": "Real-Time Payments",
+          "fee": "1.8% - 4.3%",
+          "country": "India",
+          "logoUrl": "https://images.icon-icons.com/2699/PNG/512/upi_logo_icon_170312.png",
+          "countryCodes": [
+            "IN"
+          ]
+        },
+        {
+          "id": "pix",
+          "name": "Pix",
+          "type": "Real-Time Payments",
+          "fee": "1.8% - 4.3%",
+          "country": "Brazil",
+          "logoUrl": "https://img.icons8.com/color/1200/pix.jpg",
+          "countryCodes": [
+            "BR"
+          ]
+        },
+        {
+          "id": "paynow",
+          "name": "PayNow",
+          "type": "Real-Time Payments",
+          "fee": "2.60%",
+          "country": "Singapore",
+          "logoUrl": "https://logowik.com/content/uploads/images/paynow3339.jpg",
+          "countryCodes": [
+            "SG"
+          ]
+        },
+        {
+          "id": "promptpay",
+          "name": "PromptPay",
+          "type": "Real-Time Payments",
+          "fee": "2.60%",
+          "country": "Thailand",
+          "logoUrl": "https://www.rapyd.net/wp-content/uploads/2025/01/PromptPay-logo.png",
+          "countryCodes": [
+            "TH"
+          ]
+        },
+        {
+          "id": "payto",
+          "name": "PayTo",
+          "type": "Real-Time Payments",
+          "fee": "2.60%",
+          "country": "Australia",
+          "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeXtVQqRA6ByukrenvjS_KUW-_sDTcPEbA2Hq3fewwPQ&s=10",
+          "countryCodes": [
+            "AU"
+          ]
+        },
+        {
+          "id": "pay-by-bank",
+          "name": "Pay by Bank",
+          "type": "Real-Time Payments",
+          "fee": "2.60%",
+          "country": "Europe - Open Banking)",
+          "logoUrl": "https://e7.pngegg.com/pngimages/127/511/png-clipart-bank-computer-icons-bank-building-bank.png",
+          "countryCodes": []
+        },
+        {
+          "id": "klarna",
+          "name": "Klarna",
+          "type": "Buy Now, Pay Later",
+          "fee": "2.99% - 8.49%",
+          "country": "US, Canada, UK, Ireland, Austria, Belgium, Switzerland, Czech Republic, Germany, Denmark, Spain, Finland, France, Greece, Italy, Netherlands, Norway, Poland, Portugal, Romania, Sweden, Australia, New Zealand",
+          "logoUrl": "https://img.logo.dev/klarna.com?token=live_6a1a28fd-6420-4492-aeb0-b297461d9de2&size=512&retina=true&format=png",
+          "countryCodes": [
+            "US",
+            "CA",
+            "GB",
+            "IE",
+            "AT",
+            "BE",
+            "CH",
+            "CZ",
+            "DE",
+            "DK",
+            "ES",
+            "FI",
+            "FR",
+            "GR",
+            "IT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "AU",
+            "NZ"
+          ]
+        },
+        {
+          "id": "affirm",
+          "name": "Affirm",
+          "type": "Buy Now, Pay Later",
+          "fee": "6.0% - 9.49%",
+          "country": "US, Canada",
+          "logoUrl": "https://logos-world.net/wp-content/uploads/2024/02/Affirm-Symbol.png",
+          "countryCodes": [
+            "US",
+            "CA"
+          ]
+        },
+        {
+          "id": "afterpay-clearpay",
+          "name": "Afterpay / Clearpay",
+          "type": "Buy Now, Pay Later",
+          "fee": "6.0% - 8.5%",
+          "country": "US, UK, AU, NZ, C",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/afterpay.svg",
+          "countryCodes": [
+            "US",
+            "GB",
+            "AU",
+            "NZ"
+          ]
+        },
+        {
+          "id": "cash-app-afterpay",
+          "name": "Cash App Afterpay",
+          "type": "Buy Now, Pay Later",
+          "fee": "6.0% - 8.5%",
+          "country": "US",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/cashapp.svg",
+          "countryCodes": [
+            "US"
+          ]
+        },
+        {
+          "id": "scalapay",
+          "name": "Scalapay",
+          "type": "Buy Now, Pay Later",
+          "fee": "5.99% - 8.49%",
+          "country": "Italy, France, German",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/credit-card.svg",
+          "countryCodes": [
+            "IT",
+            "FR"
+          ]
+        },
+        {
+          "id": "alma",
+          "name": "Alma",
+          "type": "Buy Now, Pay Later",
+          "fee": "5.99% - 8.49%",
+          "country": "France, Belgium, Spain",
+          "logoUrl": "https://www.google.com/s2/favicons?domain=almapay.com&sz=128",
+          "countryCodes": [
+            "FR",
+            "BE",
+            "ES"
+          ]
+        },
+        {
+          "id": "sunbit",
+          "name": "Sunbit",
+          "type": "Buy Now, Pay Later",
+          "fee": "6.0% - 7.5%",
+          "country": "US",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/credit-card.svg",
+          "countryCodes": [
+            "US"
+          ]
+        },
+        {
+          "id": "zip",
+          "name": "Zip",
+          "type": "Buy Now, Pay Later",
+          "fee": "4.5% - 6.0%",
+          "country": "US, AU, NZ, UK, CA",
+          "logoUrl": "https://www.google.com/s2/favicons?domain=zip.co&sz=128",
+          "countryCodes": [
+            "US",
+            "AU",
+            "NZ",
+            "GB",
+            "CA"
+          ]
+        },
+        {
+          "id": "oxxo",
+          "name": "OXXO",
+          "type": "Cash-Base Vouchers",
+          "fee": "4.0% - 6.5%",
+          "country": "Mexico",
+          "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAbCTuGZRLQBg5m7JR4mLHIZ2j4v7BL0drpD0cojGZuA&s=10",
+          "countryCodes": [
+            "MX"
+          ]
+        },
+        {
+          "id": "boleto",
+          "name": "Boleto",
+          "type": "Cash-Base Vouchers",
+          "fee": "2.95% - 5.45%",
+          "country": "Brazil",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/ticket.svg",
+          "countryCodes": [
+            "BR"
+          ]
+        },
+        {
+          "id": "multibanco",
+          "name": "Multibanco",
+          "type": "Cash-Base Vouchers",
+          "fee": "2.95% - 5.45%",
+          "country": "Portugal",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/credit-card.svg",
+          "countryCodes": [
+            "PT"
+          ]
+        },
+        {
+          "id": "konbini",
+          "name": "Konbini",
+          "type": "Cash-Base Vouchers",
+          "fee": "Contact Stripe",
+          "country": "Japan",
+          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/credit-card.svg",
+          "countryCodes": [
+            "JP"
+          ]
+        }
+      ],
+      "supportedCountryCodes": []
+    }
+  ]
+}
