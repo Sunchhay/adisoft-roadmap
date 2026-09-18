@@ -184,7 +184,7 @@
           "type": "Cards (Global Networks)",
           "fee": "2.9% - 5.4%",
           "country": "Worldwide",
-          "logoUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/americanexpress.svg",
+          "logoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/American_Express_logo_%282018%29.svg/3840px-American_Express_logo_%282018%29.svg.png",
           "countryCodes": [],
           "isGlobal": true
         },
@@ -194,7 +194,7 @@
           "type": "Cards (Global Networks)",
           "fee": "2.9% - 5.4%",
           "country": "Primarily US",
-          "logoUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/discover.svg",
+          "logoUrl": "https://banner2.cleanpng.com/20180524/pri/avqs9iqye.webp",
           "countryCodes": [
             "US"
           ]
@@ -490,7 +490,7 @@
           "type": "Bank Debits",
           "fee": "0.80%",
           "country": "(US)",
-          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "logoUrl": "https://e7.pngegg.com/pngimages/127/511/png-clipart-bank-computer-icons-bank-building-bank.png",
           "countryCodes": [
             "US"
           ]
@@ -521,7 +521,7 @@
           "type": "Bank Debits",
           "fee": "1.00%",
           "country": "Australia",
-          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "logoUrl": "https://e7.pngegg.com/pngimages/127/511/png-clipart-bank-computer-icons-bank-building-bank.png",
           "countryCodes": [
             "AU"
           ]
@@ -532,7 +532,7 @@
           "type": "Bank Debits",
           "fee": "1.00%",
           "country": "New Zealand",
-          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "logoUrl": "https://e7.pngegg.com/pngimages/127/511/png-clipart-bank-computer-icons-bank-building-bank.png",
           "countryCodes": [
             "NZ"
           ]
@@ -543,7 +543,7 @@
           "type": "Bank Redirects",
           "fee": "1.00%",
           "country": "Canada",
-          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "logoUrl": "https://e7.pngegg.com/pngimages/127/511/png-clipart-bank-computer-icons-bank-building-bank.png",
           "countryCodes": [
             "CA"
           ]
@@ -587,7 +587,7 @@
           "type": "Bank Redirects",
           "fee": "€0.29 flat fee",
           "country": "Europe",
-          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "logoUrl": "https://e7.pngegg.com/pngimages/127/511/png-clipart-bank-computer-icons-bank-building-bank.png",
           "countryCodes": []
         },
         {
@@ -629,7 +629,7 @@
           "type": "Bank Redirects",
           "fee": "€0.29 flat fee",
           "country": "Spain",
-          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "logoUrl": "https://e7.pngegg.com/pngimages/127/511/png-clipart-bank-computer-icons-bank-building-bank.png",
           "countryCodes": [
             "ES"
           ]
@@ -651,7 +651,7 @@
           "type": "Bank Transfers",
           "fee": "0.80%",
           "country": "US",
-          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "logoUrl": "https://e7.pngegg.com/pngimages/127/511/png-clipart-bank-computer-icons-bank-building-bank.png",
           "countryCodes": [
             "US"
           ]
@@ -662,7 +662,7 @@
           "type": "Bank Transfers",
           "fee": "0.80%",
           "country": "UK",
-          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "logoUrl": "https://e7.pngegg.com/pngimages/127/511/png-clipart-bank-computer-icons-bank-building-bank.png",
           "countryCodes": [
             "GB"
           ]
@@ -673,7 +673,7 @@
           "type": "Bank Transfers",
           "fee": "0.80%",
           "country": "Europe",
-          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "logoUrl": "https://e7.pngegg.com/pngimages/127/511/png-clipart-bank-computer-icons-bank-building-bank.png",
           "countryCodes": []
         },
         {
@@ -682,7 +682,7 @@
           "type": "Bank Transfers",
           "fee": "0.80%",
           "country": "Mexico",
-          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "logoUrl": "https://e7.pngegg.com/pngimages/127/511/png-clipart-bank-computer-icons-bank-building-bank.png",
           "countryCodes": [
             "MX"
           ]
@@ -693,7 +693,7 @@
           "type": "Bank Transfers",
           "fee": "Contact Stripe",
           "country": "Japan",
-          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/landmark.svg",
+          "logoUrl": "https://e7.pngegg.com/pngimages/127/511/png-clipart-bank-computer-icons-bank-building-bank.png",
           "countryCodes": [
             "JP"
           ]
@@ -813,7 +813,7 @@
           "type": "Buy Now, Pay Later",
           "fee": "6.0% - 8.5%",
           "country": "US, UK, AU, NZ, C",
-          "logoUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/afterpay.svg",
+          "logoUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQEmL1Mxxzyr9g/company-logo_200_200/company-logo_200_200/0/1630655960513/clearpay_logo?e=2147483647&v=beta&t=pZujSGsxjLPkmP1zyleE3jxjDts8tIGzH3YnvIHeFJo",
           "countryCodes": [
             "US",
             "GB",
@@ -838,7 +838,7 @@
           "type": "Buy Now, Pay Later",
           "fee": "5.99% - 8.49%",
           "country": "Italy, France, German",
-          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/credit-card.svg",
+          "logoUrl": "https://e7.pngegg.com/pngimages/127/511/png-clipart-bank-computer-icons-bank-building-bank.png",
           "countryCodes": [
             "IT",
             "FR"
@@ -863,7 +863,7 @@
           "type": "Buy Now, Pay Later",
           "fee": "6.0% - 7.5%",
           "country": "US",
-          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/credit-card.svg",
+          "logoUrl": "https://e7.pngegg.com/pngimages/127/511/png-clipart-bank-computer-icons-bank-building-bank.png",
           "countryCodes": [
             "US"
           ]
@@ -900,7 +900,7 @@
           "type": "Cash-Base Vouchers",
           "fee": "2.95% - 5.45%",
           "country": "Brazil",
-          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/ticket.svg",
+          "logoUrl": "https://iconape.com/wp-content/png_logo_vector/boleto-logo.png",
           "countryCodes": [
             "BR"
           ]
@@ -911,7 +911,7 @@
           "type": "Cash-Base Vouchers",
           "fee": "2.95% - 5.45%",
           "country": "Portugal",
-          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/credit-card.svg",
+          "logoUrl": "https://w7.pngwing.com/pngs/757/517/png-transparent-multibanco-crad-credit-pay-payment-pinpoint-payment-icon-thumbnail.png",
           "countryCodes": [
             "PT"
           ]
@@ -922,7 +922,7 @@
           "type": "Cash-Base Vouchers",
           "fee": "Contact Stripe",
           "country": "Japan",
-          "logoUrl": "https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/icons/credit-card.svg",
+          "logoUrl": "https://lavieestbelt.fr/cdn/shop/articles/unnamed.png?v=1614955331",
           "countryCodes": [
             "JP"
           ]
